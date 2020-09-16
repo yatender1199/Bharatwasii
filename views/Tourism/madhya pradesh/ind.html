@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Indore</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/N5Anlh0.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h1{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Sofia', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Sofia', cursive;
+    			
+    			
+    			letter-spacing: 3px;
+    			word-spacing: 5px; 
+    			font-size:22px;
+			}
+			
+			.description{
+				width:50%;
+				float:left;
+			}
+			.glow {
+  font-size:50px;
+  color: black;
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1325F0, 0 0 40px #1325F0, 0 0 50px #1325F0, 0 0 60px #1325F0, 0 0 70px #1325F0;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 18px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+				.glow{
+					font-size: 40px;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 16px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+				.glow{
+					font-size: 35px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="mp.html">Go Back</a>
+            </nav>
+            <div id="title"><h1>indore</h1></div>
+			<div class="description">
+				</br>
+			</br>
+				<h1 class="glow">"<b>'The food city'</b> famous for its Poha and Immarti"</h1>
+			</br>
+			<span class="des">Indore is the largest and the most populous city of Madhya Pradesh. Located on the Malwa Plateau, the charm of this city lies in its rich cultural heritage which has been preserved over centuries and along with the hints of urbanisation.<br/>
+			</br>
+			Indore has been one of the fore-runners in the development of the country in the era of modernization. One of the educational hubs in the country, Indore has both an IIT and an IIM. Indore is also the cleanest city of India. Indore has over the years established itself as the hub of trading and industrial practices in the state.  The city of Indore gets its name from Indreshwar Mahadev temple. It is believed that Lord Indra meditated on this land and led Swami Indrapuri to establish this temple. Try out some local delicacies like Indori Poha at Sarafa Bazaar while you are in Indore.
+
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/pwZHHvejkczPRiSt9">
+
+			    
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235527.45446938823!2d75.72376397472755!3d22.72391173166939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1597290132161!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+</html>

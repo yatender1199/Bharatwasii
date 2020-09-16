@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ramgarh</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/heIzhRp.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h2{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: lighter;
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:18px;
+			}
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 10px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="#">Home</a>
+            </nav>
+            <div id="title"><h2>ramgarh</h2></div>
+			<div class="description">
+			<span class="des">Ramgarh, a serene and secluded cool hill station in Kumaon region of Uttaranchal placed at a height of 1789 m above the sea level, is renowned for fruits and orchards. This hill station is founded by Bristish and was frequently visited by many high profile personalities of India and British. The hill station carries the legacy of some ancestral buildings, used as inspection bungalows and temporary stay palaces for officers, dating back to British colonial period.
+			<br/>
+			The most attractive place in the Kumaon region, Ramgarh is Scenic which feat the eyes of visitors. The plain is home to many orchards of apricots, plums, peaches and apples. The famous world renowned Nobel laureate Rabindranath Tagore was fond of this place and was a devoted visitor to this place. Really this place fills your hearts with calm, cool and secluded thinking, arises the fancy, fantastic and artistic ideas. Many writers and thinkers visit this place to rejuvenate their thinking. It is recorded that some of the compositions of Rabindra Nath Tagore was composed while his stay here.
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/sn2Jw5jvepeNUFoF6" target="_blank">
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58482.223995652!2d85.47841712992289!3d23.63519261928863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4f3f4a5cf98fd%3A0xcf187bf27b7bc4e9!2sRamgarh%20Cantonment%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1598011485108!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+	
+</html>

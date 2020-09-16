@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jageswardham</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/rFV96cH.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h2{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: lighter;
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:18px;
+			}
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 10px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="#">Home</a>
+            </nav>
+            <div id="title"><h2>Jageswardham</h2></div>
+			<div class="description">
+			<span class="des">Jageshwar Temples, also referred to as Jageswar Temples or Jageshwar Valley Temples, are a group of over 100 Hindu temples dated between 7th and 12th century near Almora, in the Himalayan Indian state of Uttarakhand. The valley has a number of temple clusters such as the Dandeshwar and Jageshwar sites. Some locations have attracted construction of new temples through the 20th-century. Together these clusters over the valley consist of over 200 structural temples built from cut stone. Many are small, while a few are substantial. They predominantly illustrate North Indian Nagara style of architecture with a few exceptions that show South and Central Indian style designs, many are dedicated to god Shiva, while others in immediate vicinity are dedicated to god Vishnu, Shakti goddesses and Surya traditions of Hinduism.<br><br>Jageshwar is a Hindu pilgrimage town and one of the Dhams (pilgrimage region) in the Shaivism tradition. The site is protected under Indian laws, and managed by the Archaeological Survey of India (ASI). It includes Dandeshwar Temple, Chandi-ka-Temple, Jageshwar Temple, Kuber Temple, Mritunjaya Temple, Nanda Devi or Nau Durga, Nava-grah temple, a Pyramidal shrine, and Surya Temple. The site celebrates the Jageshwar Monsoon Festival during the Hindu calendar month of Shravan (overlaps with July–August) and the annual Maha Shivratri Mela (Shivratri festival), which takes place in early spring. 
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/9oZcaaPsSeANPAts7" target="_blank">
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.8070095469475!2d79.85060686448166!3d29.6383479945979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a0cee76f8b2fdf%3A0xcb5f2d7ad4c9886!2sJageshwar%20Dham%2C%20Uttarakhand%20263623!5e0!3m2!1sen!2sin!4v1598083993331!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+	
+</html>

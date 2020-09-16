@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>uttarakhand</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-color: #e2cfe2
+   				overflow:auto;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.8);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+			.intro{
+				width:100%;
+				height:80vh;
+				background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/m8tag0u.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow-x: hidden;
+   				align-items: center;
+
+			}
+			.content-header{
+				width:1180px;
+				/*border:1px solid red;*/
+				position: absolute;
+				top:70%;
+				left:50%;
+				transform:translate(-50%,-50%);
+
+			}
+			.intro1{
+				font-size:240%;
+				font-family: 'Flamenco', cursive; 
+				color:white;
+				word-spacing: 3px;
+				letter-spacing: 3px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			font-weight: bolder;
+
+			}
+			.intro2{
+				font-size:220%;
+				font-family: 'Flamenco', cursive; 
+				color:white;
+				letter-spacing: 3px;
+				word-spacing: 3px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			font-weight: bolder;
+				
+			}
+			.intro3{
+				font-size:200%;
+				font-family: 'Flamenco', cursive; 
+				color:white;
+				letter-spacing: 3px;
+				word-spacing: 3px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			font-weight: bolder;
+			}
+			
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h1{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:black;
+				font-family: 'Flamenco', cursive;
+				 text-shadow: 3px 3px #ccccff;
+			}
+
+			#outer{
+				height:100%;
+				width:100%;
+				border:1px solid;
+			}
+			
+			.gallery img{
+				width:100%;
+				
+			}
+			.wlink{
+				padding:15px;
+				text-align:center;
+				overflow-x: hidden;
+				display: flex;
+				text-decoration: none;
+				justify-content: center;
+    			align-items: center;
+    			color:#001a1a;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: bolder; 
+    			
+			}
+			.responsive:hover{
+				box-shadow: 2px 2px 2px 2px #b3b3b3;
+			}
+
+			.responsive{
+				padding:0 6px;
+				float:left;
+				width:25%;
+				padding-top: 20px;
+				
+			}
+			
+			.chnge:after{
+    			content:'';
+    			animation:changetext 10s infinite linear;color:#00b894;
+			}
+
+
+			@media only screen and (max-width: 1000px){
+				.responsive{
+					width:50%;
+					margin:6px 0;
+				}
+				nav .logo{
+					padding-left: 5px;
+				}
+			}
+
+			@media only screen and (max-width: 420px){
+				.responsive{
+					width:100%;	
+				}
+				nav .logo{
+					padding-left: 5px;
+				}
+				.intro{
+					height:78vh;	
+					align-items: center;
+
+				}
+				.content-header{
+					width: 100%;
+				}
+				.intro1{
+					font-size: 155%;
+					word-spacing: 0px;
+					letter-spacing: 1px;
+				}
+				.intro2{
+					font-size: 140%;
+				}
+				.intro3{
+					font-size: 130%;
+				}
+		    }
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="#">Home</a>
+           	</nav>
+            <div class='intro'>
+            	<div class="content-header">
+            	<span class="intro1">WELCOME TO UTTARAKHAND</span><br/>
+    			<span class="intro2">LAND OF GODS</span>
+  				<br/>
+    			<span class="intro3" style="color: white;font-size: 20px;font-family: 'Flamenco', cursive; ">A Brief Introduction of Uttarakhand. The 27th state of Republic of India, Devbhoomi Uttarakhand that was formed in the year 2000 after being separated from the large state of Uttar Pradesh, is a destination to explore the riches of Indian culture, history, and natural beauty.</span>
+    			</div>
+    		</div>
+            <div id="title"><h1>popular destination</h1></div>
+           		
+            	
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="corbett national park.html" target="_blank"><img src="https://i.imgur.com/UUM0jYj.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="corbett national park.html" class="wlink">corbett national park</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="dehradun.html" target="_blank"><img src="https://i.imgur.com/Uig9AtS.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="dehradun.html" class="wlink">dehradun</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="haridwar.html" target="_blank"><img src="https://i.imgur.com/JDk2aaK.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="haridwar.html" class="wlink">haridwar</a></div>					
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a href="kedarnath.html" target="_blank"><img src="https://i.imgur.com/Jv2PT1X.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="kedarnath.html" class="wlink">kedarnath</a></div>					
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a href="mussoorie.html" target="_blank"><img src="https://i.imgur.com/r2miHyS.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="mussoorie.html" class="wlink">mussoorie</a></div>					
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a href="nanital.html" target="_blank"><img src="https://i.imgur.com/y5OpTGL.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="nanital.html" class="wlink">nanital</a></div>					
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a href="chandrashila.html" target="_blank"><img src="https://i.imgur.com/TkXGUlw.jpg" width="300" height="200"></a>
+						<div class="des"><a href="chandrashila.html" class="wlink">chandrashila</a></div>
+					</div>
+				</div>
+            	
+
+            	<div class="responsive">
+					<div class="gallery">
+						<a href="gangotri glacier.html" target="_blank"><img src="https://i.imgur.com/lSd0dzs.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="gangotri glacier.html" class="wlink">gangotri glacier</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="corbett falls.html" target="_blank"><img src="https://i.imgur.com/ZL8AsSk.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="corbett falls.html" class="wlink">corbett falls</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="ranikhet.html" target="_blank"><img src="https://i.imgur.com/5PkxKLr.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="ranikhet.html" class="wlink">ranikhet</a></div>					
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a href="rishikesh.html" target="_blank"><img src="https://i.imgur.com/PQwlFSe.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="rishikesh.html" class="wlink">rishikesh</a></div>					
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="bagnath temple.html" target="_blank"><img src="https://i.imgur.com/MU2e2VP.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="bagnath temple.html" class="wlink">bagnath temple</a></div>					
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a href="badrinath.html" target="_blank"><img src="https://i.imgur.com/YF6e4qDb.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="badrinath.html" class="wlink">badrinath</a></div>					
+					</div>
+				</div>
+				
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="chaukori.html" target="_blank"><img src="https://i.imgur.com/lyVmjeK.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="chaukori.html" class="wlink">chaukori</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="devprayag.html" target="_blank"><img src="https://i.imgur.com/8C0qNVr.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="devprayag.html" class="wlink">devprayag</a></div>					
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="gaurikund.html" target="_blank"><img src="https://i.imgur.com/6lPwsMe.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="gaurikund.html" class="wlink">gaurikund</a></div>					
+					</div>
+				</div>	
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="ghangaria.html" target="_blank"><img src="https://i.imgur.com/IHOCYWH.jpg" width="300" height="200"></a>
+						<div class="des"><a href="ghangaria.html" class="wlink">ghangaria</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="govind ghat.html" target="_blank"><img src="https://i.imgur.com/dN3r3KY.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="govind ghat.html" class="wlink">govind ghat</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="guptkashi.html" target="_blank"><img src="https://i.imgur.com/QLtfCOi.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="guptkashi.html" class="wlink">guptkashi</a></div>					
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="haldwani.html" target="_blank"><img src="https://i.imgur.com/jqKgKYB.jpg" width="300" height="200"></a>
+						<div class="des"><a href="haldwani.html" class="wlink">haldwani</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="landour.html" target="_blank"><img src="https://i.imgur.com/NFws9z6.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="landour.html" class="wlink">landour</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="new tehri.html" target="_blank"><img src="https://i.imgur.com/6wikRRn.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="new tehri.html" class="wlink">new tehri</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="patal bhuvaneshwar.html" target="_blank"><img src="https://i.imgur.com/JCzl5hX.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="patal bhuvaneshwar.html" class="wlink">patal bhuvaneshwar</a></div>					
+					</div>
+				</div>	
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="pindari glacier.html" target="_blank"><img src="https://i.imgur.com/1g7oXag.jpg" width="300" height="200"></a>
+						<div class="des"><a href="pindari glacier.html" class="wlink">pindari glacier</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="ramgarh.html" target="_blank"><img src="https://i.imgur.com/heIzhRp.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="ramgarh.html" class="wlink">ramgarh</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="almora.html" target="_blank"><img src="https://i.imgur.com/fsDKqrG.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="almora.html" class="wlink">almora</a></div>					
+					</div>
+				</div>
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="uttarkadshi.html" target="_blank"><img src="https://i.imgur.com/AOlilRM.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="uttarkadshi.html" class="wlink">uttarkashi</a></div>					
+					</div>
+				</div>
+
+					
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="bhimtal.html" target="_blank"><img src="https://i.imgur.com/txBjhw6.jpg" width="300" height="200"></a>
+						<div class="des"><a href="bhimtal.html" class="wlink">bhimtal</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="auli.html" target="_blank"><img src="https://i.imgur.com/pM9pL0j.jpeg" width="300" height="200"></a>	
+						<div class="des"><a href="auli.html" class="wlink">auli</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="binsar.html" target="_blank"><img src="https://i.imgur.com/Ji2fNkH.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="binsar.html" class="wlink">binsar</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="chakrata.html" target="_blank"><img src="https://i.imgur.com/5HzHTU2.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="chakrata.html" class="wlink">chakrata</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="chopta.html" target="_blank"><img src="https://i.imgur.com/gKbwXDe.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="chopta.html" class="wlink">chopta</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="dhanaulti.html" target="_blank"><img src="https://i.imgur.com/YVVxKM1.png" width="300" height="200"></a>	
+						<div class="des"><a href="dhanaulti.html" class="wlink">dhanaulti</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="jageswardham.html" target="_blank"><img src="https://i.imgur.com/rFV96cH.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="jageswardham.html" class="wlink">jageswardham</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="joshimath.html" target="_blank"><img src="https://i.imgur.com/v52TbYh.jpg" width="300" height="200"></a>
+						<div class="des"><a href="joshimath.html" class="wlink">joshimath</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="kanatal.html" target="_blank"><img src="https://i.imgur.com/HoyoA3l.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="kanatal.html" class="wlink">kanatal</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="lansdowne.html" target="_blank"><img src="https://i.imgur.com/nfxTTJk.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="lansdowne.html" class="wlink">lansdowne</a></div>					
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="munsyari.html" target="_blank"><img src="https://i.imgur.com/kuSHmv6.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="munsyari.html" class="wlink">munsyari</a></div>					
+					</div>
+				</div>	
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="nandaDeviNationalPark.html" target="_blank"><img src="https://i.imgur.com/ETuW7De.jpg" width="300" height="200"></a>
+						<div class="des"><a href="nandaDeviNationalPark.html" class="wlink">NandaDeviNationalPark</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="pangoot.html" target="_blank"><img src="https://i.imgur.com/KZcKaDm.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="pangoot.html" class="wlink">pangoot</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="ramnagar.html" target="_blank"><img src="https://i.imgur.com/m25ZANr.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="ramnagar.html" class="wlink">ramnagar</a></div>					
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="rudraprayag.html" target="_blank"><img src="https://i.imgur.com/zhu7QcB.jpg" width="300" height="200"></a>
+						<div class="des"><a href="rudraprayag.html" class="wlink">rudraprayag</a></div>
+					</div>
+				</div>
+
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="gangotri.html" target="_blank"><img src="https://i.imgur.com/vHaIPgY.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="gangotri.html" class="wlink">gangotri</a></div>					
+					</div>
+				</div>
+
+				
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="kausani.html" target="_blank"><img src="https://i.imgur.com/bDQ1qgN.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="kausani.html" class="wlink">kausani</a></div>					
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="mukteswar.html" target="_blank"><img src="https://i.imgur.com/RbJfa3n.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="mukteswar.html" class="wlink">mukteswar</a></div>					
+					</div>
+				</div>
+				
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="rajaji national park.html" target="_blank"><img src="https://i.imgur.com/N9EEizi.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="rajaji national park.html" class="wlink">rajaji national park</a></div>					
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="valley of flower national park.html" target="_blank"><img src="https://i.imgur.com/d1NwndN.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="valley of flower national park.html" class="wlink">valley of flower national park</a></div>					
+					</div>
+				</div>
+
+		</header>
+		
+	</body>
+</html>

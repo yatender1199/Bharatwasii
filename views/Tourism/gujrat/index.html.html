@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <style>
+            *{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+}
+header{
+    width: 100%;height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url('https://i.imgur.com/32yVAnU.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width:100%;height:15vh;
+    background:rgba(0,0,0,0.3);
+    color:white;display: flex;justify-content: space-between;
+    align-items: center;text-transform: uppercase;
+}
+nav .logo{
+    width: 25%;text-align: center;
+    
+}
+nav .menu{
+    width:40%;
+    display:flex;justify-content: space-around;
+}
+nav .menu a{width:25%;text-decoration: none;color:white;
+    font-weight: bold;
+    
+}
+nav .menu a:first-child{color:#00b894;}
+main{
+    width: 100%;height: 85vh;
+    display: flex;justify-content: center;
+    align-items: center;text-align: center;color:white;
+}
+section{
+    
+}
+section h3{
+    font-size: 35px;font-weight: 300;letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+}
+section h1{
+    margin 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 3px 2px 6px black;
+    text-transform: uppercase;
+}
+section p{
+    font-size: 25px;
+   
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding:12px 30px;
+    border-radius: 4px;
+    outline:none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+section .btone{
+    background:white;
+    color:black;
+}
+section .bttwo{background:#00b894;
+    color:white
+    
+}
+.chnge:after{
+    content:'';
+    animation:changetext 10s infinite linear;color:#00b894;
+}
+@keyframes changetext{
+    0%{content:  "   CULTURE";}
+    10%{content:"  WILDLIFE";}
+    20%{content:"  TOURISM";}
+    30%{content:"  FESTIVALS";}
+    40%{content:"   STATES & UTs";}
+    50%{content:"   FOOD";}
+    60%{content:"  FAMOUS PERSONALITIES";}
+    70%{content:"  TEXTILE";}
+    80%{content:" AGRICULTURE";}
+    90%{content:" INDUSTRIES";}
+    100%{content:"  ACADEMIC INSTITUTIONS";}
+}
+        </style>
+    </head>
+    <body>
+        <header>
+        <nav>
+            <div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            <div class="menu">
+                <a href="#">Home</a>
+                 <a href="#">About</a>
+                 <a href="#">Gallery</a>
+                 <a href="#">Contact</a>
+            </div>
+            </nav>
+            <main>
+                <section>
+                    <h3>WELCOME TO INDIA</h3>
+                    <h1>Indian<span class="chnge"></span></h1>
+                    <p>"HUM SAB BHARATWASII HAI"</p>
+                    <a href="#" class="btone">learn more</a>
+                    <a href="#" class="bttwo">signup here</a>
+                </section>
+            </main>
+            
+        </header>
+    </body>
+    
+</html>

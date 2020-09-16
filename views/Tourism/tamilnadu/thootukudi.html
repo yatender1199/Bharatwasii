@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>THOOTHUKUDI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/ICUQnzb.jpeg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h1{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family:  cursive;
+    			text-transform: uppercase;
+    			
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:15px;
+			}
+			
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 13px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="layout.html">Home</a>
+            </nav>
+            <div id="title"><h1>THOOTHUKUDI</h1></div>
+			<div class="description">
+			<span class="des">
+			Thoothukudi, also known by its former name Tuticorin, is a port city, a municipal corporation and an industrial city in Thoothukudi district in the Indian state of Tamil Nadu. The city lies in the Coromandel Coast of Bay of Bengal. Thoothukudi is the capital and headquarters of Thoothukudi district.
+
+Thoothukudi is known as "Pearl City" due to the pearl fishing carried out in the town. It is a commercial seaport which serves the inland cities of Southern India and is one of the sea gateways of Tamil Nadu. It is also one of the major seaports in India with a history dating back to the 6th century AD. The city is believed to be of significant antiquity and has been ruled, at different times, by the Early Pandyas, Medieval Cholas, Later Cholas, Later Pandyas, Ma'bar Sultanate, Tirunelveli Sultanate, Vijayanagar Empire, Madurai Nayaks, Chanda Sahib, Carnatic kingdom, Portuguese, Dutch and the British. Thoothukudi was settled by the Portuguese, Dutch and later by the British East India Company.
+
+The majority of the people of the city are employed in salt pans, sea-borne trading, fishing, and tourism. The 21 islands between Thoothukudi and Rameswaram shores in the Gulf of Mannar are noted as the first Marine Biosphere Reserve of India, and have around 36,000 species of flora and fauna. 
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Thoothukudi%20&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"</iframe><a href="https://add-google-map.com"></a></div>
+     		</div>
+		</header>
+	</body>
+</html>

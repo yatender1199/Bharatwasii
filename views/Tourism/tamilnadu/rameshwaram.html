@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RAMESHWARAM</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/SzbVLr1.jpeg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h1{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family:  cursive;
+    			text-transform: uppercase;
+    			
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:15px;
+			}
+			
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 13px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="layout.html">Home</a>
+            </nav>
+            <div id="title"><h1>RAMESHWARAM</h1></div>
+			<div class="description">
+			<span class="des">Rameswaram is a town and municipality in the Ramanathapuram district of the Indian state of Tamil Nadu. It is on Pamban Island separated from mainland India by the Pamban channel and is about 40 kilometres from Mannar Island, Sri Lanka. It is in the Gulf of Mannar, at the tip of the Indian peninsula.
+
+It is written in the Ramayana that the Divine King Rama built a bridge with Hanuman's help from here across the sea to Lanka to rescue his wife Sita from her abductor Ravana. The Ramanathaswamy Temple, dedicated to the Vedic god Shiva, is at the centre of the town and is closely associated with Rama. The temple and the town are considered a holy pilgrimage site for Shaivas.
+
+Rameswaram is the closest point from which to reach Sri Lanka from India, and geological evidence suggests that the Rama Sethu was a former land connection between India and Sri Lanka[citation needed]. The town has been in the news over the Sethusamudram Shipping Canal Project, Kachchatheevu, Sri Lankan Tamil refugees and capturing local fishermen for alleged cross-border activities by Sri Lankan Forces.Rameswaram is administered by a municipality established in 1994. The town covers an area of 53 km2 (20 sq mi) and had a population of 44,856 as of 2011. Tourism and fishery employ the majority of workforce in Rameswaram.
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=rameshwaram%20&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"</iframe><a href="https://add-google-map.com"></a></div>
+     		</div>
+		</header>
+	</body>
+</html>

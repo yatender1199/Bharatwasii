@@ -1,0 +1,141 @@
+	<head>
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/YF6e4qDb.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h2{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: lighter;
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:18px;
+			}
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 10px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="#">Home</a>
+            </nav>
+            <div id="title"><h2>Badrinath</h2></div>
+			<div class="description">
+			<span class="des">Sandwiched between Nar and Narayan mountain ranges, Badrinath in the Chamoli district of Uttarakhand is one among the most sought after pilgrim centers in the Indian subcontinent. Badrinath is beautifully set in the backdrop of the colossal Neelkanth mountain peak and never fails to make the visitor spellbound with its unparalleled gorgeousness.. The term Badrinath is a derivative of badri, which means the place where beries grow abundantly.<br>
+
+<br>A place, which holds so many myths and legends, Badrinath acquires predominance in the travel itinerary of a pilgrim. The popular belief is that Badarinath was the domain of Lord Shiva, and Lord Vishnu managed to unseat Shiva from here to Kedarnath. Another belief is that when Ganga made her descend to earth she split up in to twelve streams and one among the channels, Alakananda felt on Kedarnath which gives Badrinath it’s majestic look.<br>
+
+<br>It is not just recreational activities, shrines and pilgrimage that Badrinath offers. It proffers the awesome beauty of the snow clad mountain peaks and the surging landscapes of the Garhwal region.<br>
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/2Jp4rZ4M2xpJohHd6" target="_blank">
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13716.678880814214!2d79.48521487858942!3d30.74173380614204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a78e9f973108e7%3A0xf05a8b5e0c71473!2sBadrinath%2C%20Uttarakhand%20246422!5e0!3m2!1sen!2sin!4v1598080117453!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        		</a>
+     		</div>
+		</header>
+	</body>
+	
+</html>

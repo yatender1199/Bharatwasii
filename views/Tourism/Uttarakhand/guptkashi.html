@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>guptkashi</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/QLtfCOi.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h2{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: lighter;
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:18px;
+			}
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 10px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="#">Home</a>
+            </nav>
+            <div id="title"><h2>guptkashi</h2></div>
+			<div class="description">
+			<span class="des">Guptkashi is situated 47kms before the holiest shrine of Lord Shiva, Kedarnath. It is located on the route to Kedarnath on a ridge on the west side of the Mandakini river valley at an elevation of 1,319 mts above sea level. Guptkashi is a religiously important town of Uttarakhand as it houses ancient temples like Vishwanath temple and Ardhnarishwar temple. The centermost attraction of Guptkashi town, Manikarnika Kund is a place where two streams of the Ganga and Yamuna meet.
+			<br/>
+			Gaurikund, the town from where trek to Kedarnath commences is situated 34kms ahead of Guptkashi. Guptkashi is situated on the mountain facing Ukhimath town. When the Pandavas were searching for a glimpse of Shiva, Shiva first concealed himself in Gupt Kashi but later fled from them further up the valley to Kedarnath. The main temple of Guptkashi is dedicated to Lord Shiva as Vishwanath – “Lord of the Universe”. It is built by regional stones and is situated in an enclosed courtyard. The small temple to its left is Ardhanarishvar.
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/DtF35VyDxwY4uGPE8" target="_blank">
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6873.799422203382!2d79.07425182389676!3d30.52387482684145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390834276aeb1ac7%3A0x3754eb3cb2189aaf!2sGuptkashi%2C%20Uttarakhand%20246439!5e0!3m2!1sen!2sin!4v1598011244159!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+	
+</html>

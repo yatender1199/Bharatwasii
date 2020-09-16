@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Joshimath</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/v52TbYh.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h2{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: lighter;
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:18px;
+			}
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 10px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="#">Home</a>
+            </nav>
+            <div id="title"><h2>Joshimath</h2></div>
+			<div class="description">
+			<span class="des">Joshimath, also known as Jyotirmath, is a city and a municipal board in Chamoli District in the Indian state of Uttarakhand. Located at a height of 6150 feet (1875 m), it is a gateway to several Himalayan mountain climbing expeditions, trekking trails and pilgrim centres like Badrinath.It is home to one of the four cardinal pīthas established by Adi Shankara.<br><br>Jyotirmath is the uttarāmnāya matha, or northern monastery, one of the four cardinal institutions established by Adi Shankara, the others being those at Shringeri, Puri and Dwarka. Their heads are titled "Shankaracharya". According to the tradition initiated by Adi Shankara, this matha is in charge of the Atharvaveda. Jyotirmath is close to the pilgrimage town of Badrinath. This place can be a base station for travellers going to Guru Gobind Ghat or the Valley of Flowers National Park. The temple Narasimha, is enshrined Badrinarayan along with a pantheon of deities. The presiding deity Lord Narasimha is believed to have been established by Adi Sankara. It is one of the "Divya Desams", the 108 temples of Vishnu revered by the 12 Tamil poet-saints or Alvars.<br><br> Joshimath Cantonment is one of the important military stations of Indian Army, present in Uttarakhand. It is the permanent station of "The Garhwal Scouts", the scout battalion of the Garhwal Rifles. It is the closest army station to the Indo-Tibetan Border. It was used as a base camp for the rescue of the victims of 2013 Kedarnath Floods. 
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/L9AEv5tPq9MzFqHX7" target="_blank">
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27486.607550409!2d79.54573610142033!3d30.55422133564023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a79cad49e7760f%3A0x9897a724d1bf7174!2sJoshimath%2C%20Uttarakhand%20246443!5e0!3m2!1sen!2sin!4v1598079123065!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+	
+</html>

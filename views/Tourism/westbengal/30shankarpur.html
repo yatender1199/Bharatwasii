@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Damion&family=Lobster&family=Satisfy&family=Teko:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>shankarpur file</title>
+   <style type="text/css">
+        body{
+            background-image: url(https://i.imgur.com/IUoxMtO.jpg);
+            background-repeat:no-repeat;
+            background-size: cover;
+            font-family: 'Lobster',cursive;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 90.5%; 
+}
+
+.container {
+  width: 100%;
+  margin: 1rem auto; 
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(5, 3vw);
+  grid-gap: 2rem 0.9rem; 
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  transition: transform .2s; 
+
+  /** Alternative Syntax **/
+  /* grid-column: 1 / span 2;  
+   grid-row: 1 / span 2; */
+}
+.gallery__item--1:hover{
+transform: scale(1.1);
+
+}
+.gallery__item--2 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  transition: transform .2s; 
+}
+.gallery__item--2:hover{
+transform: scale(1.1);
+
+}
+
+
+.gallery__item--3 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  transition: transform .2s; 
+}
+.gallery__item--3:hover{
+transform: scale(1.1);
+
+}
+figcaption {
+   background: rgb(0, 0, 0); /* Fallback color */
+  /*background: rgba(100, 255, 250, 0.5);*/
+    font-family: 'Satisfy', cursive;
+    padding: 9px;
+    color:white;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+.topnav {
+  overflow: hidden;
+  background-color: steelblue;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+   letter-spacing: 1px;
+  transition: all 0.4s;
+  text-transform: uppercase;
+   -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    font-family: 'Abel' ,'Spartan',sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+#shankarpur{
+padding-top: 15px;
+padding-right:15px;
+padding-left: 15px;
+text-align: justify;
+font-family: 'Lobster', cursive;
+color:black;
+letter-spacing: 2px;
+}
+.jumbotron{
+  margin-left: 15px;
+  margin-right:15px;
+  margin-top: 15px;
+    text-align: center;
+    padding-top: 15px;
+}
+iframe{
+float: left;
+margin:5px;
+}
+h1{
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+}
+    </style>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="#Home" class="active">Home</a>
+  <a href="westbengal.html">Go back</a>
+  <a href="#Many">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="jumbotron">
+
+<h1 class="display-4">Shankarpur – Unexplored Beaches</h1>
+<a href="https://goo.gl/maps/wL2PtNoCRMM7RoYy7"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14833.414736034862!2d87.56281011549709!3d21.650094764688156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a032d7d0afe3b53%3A0x60759c7e6ea5f33c!2sShankarpur%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1596822670787!5m2!1sen!2sin" width="200" height="240" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></a>
+
+<p id="shankarpur">Shankarpur is one of the best places to visit if you want to explore untapped and unexplored beaches. The beaches of Shankarpur are known for their pristine surroundings, scenic beauty, and lesser crowds. The luxury of visiting unexplored beaches that are aesthetically pleasing and easily accessible cannot be found elsewhere. This beach town presents an old-worldly charm that attracts a large number of tourists from around the country.The Digha Beach is another stunning beach about 14 km from Shankarpur.
+The Mandarmani Beach is another stunning beach about 3 km from Shankarpur.
+</p>
+</div>
+<h1 class="display-4 place">Places to visit</h1>
+<div class="container">
+<div class="gallery">
+<figure class="gallery__item gallery__item--1">
+<a href="#"><img src="https://i.imgur.com/47S0Q5e.jpg" alt="Gallery image 1" class="gallery__img">
+<figcaption>Shankarpur champa river</figcaption></a>
+</figure>
+
+<figure class="gallery__item gallery__item--2">
+<a href="#"><img src="https://i.imgur.com/pQzhUdn.jpg" alt="Gallery image 2" class="gallery__img">
+<figcaption>Digha Beach</figcaption></a>
+</figure>
+
+<figure class="gallery__item gallery__item--3">
+
+<a href="#"><img src="https://i.imgur.com/XeT2GAd.jpg" alt="Gallery image 3" class="gallery__img">
+<figcaption>New Digha Beach</figcaption></a>
+</figure>
+</div>
+</div>
+</body>
+</html>

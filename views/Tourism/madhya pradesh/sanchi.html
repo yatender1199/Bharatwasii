@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sanchi</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/TSLPQ4O.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h1{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Sofia', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Sofia', cursive;
+    			
+    			
+    			letter-spacing: 3px;
+    			word-spacing: 5px; 
+    			font-size:22px;
+			}
+			
+			.description{
+				width:50%;
+				float:left;
+			}
+			.glow {
+  font-size:50px;
+  color: black;
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1325F0, 0 0 40px #1325F0, 0 0 50px #1325F0, 0 0 60px #1325F0, 0 0 70px #1325F0;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 18px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+				.glow{
+					font-size: 40px;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 16px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+				.glow{
+					font-size: 35px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="mp.html">Go Back</a>
+            </nav>
+            <div id="title"><h1>sanchi</h1></div>
+			<div class="description">
+				</br>
+			</br>
+				<h1 class="glow">"<b>"The land of the Stupas"</b> </h1>
+			</br>
+			<span class="des">Located in Madhya Pradesh, the Buddhist monuments of Sanchi are one of the oldest stone structures in India. Designated a World Heritage site by UNESCO, the Great Stupa was installed in the 3rd century BC by Emperor Ashoka of the Mauryan dynasty. The sculptures and monuments present at the site are a fine example of the development of Buddhist art and architecture in Madhya Pradesh. The stupa sits atop a hill in Sanchi, 46 km from the city of Bhopal. <br/>
+			</br>
+			This large hemispherical dome, more than 50 ft high with a diameter of more than 30m was constructed to honour Lord Buddha and houses many important Buddhist relics. It is meant to serve as a sacred burial mound for the distributed remains of Lord Buddha.</br></br>
+			Sanchi is known for its ancient Stupas, monasteries, the Ashoka Pillar, Toranas or ornate gateways with intricate carvings and other remnants of the rich Buddhist culture which date back to the 3rd century B. C. It is one of the most important places for Buddhist pilgrimage and pilgrims from around the world visit this place.
+
+
+			
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/Mr61G3EfXP9F5Spa9">
+
+			    
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11262.614606338982!2d77.73071118093588!3d23.483212844298194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c0feedf9fa67d%3A0xfc8b5872bb70993b!2sSanchi%2C%20Madhya%20Pradesh%20464661!5e0!3m2!1sen!2sin!4v1597291668096!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+</html>

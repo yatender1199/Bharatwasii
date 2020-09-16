@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>gangotri glacier</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/lSd0dzs.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h2{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: lighter;
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:18px;
+			}
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 10px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="#">Home</a>
+            </nav>
+            <div id="title"><h2>gangotri glacier</h2></div>
+			<div class="description">
+			<span class="des">Gangotri Glacier is located in Uttarkashi District, Uttarakhand, India in a region bordering Tibet. This glacier, one of the primary sources of the Ganges, is one of the largest in the Himalayas with an estimated volume of over 27 cubic kilometers. The glacier is about 30 kilometres (19 miles) long and 2 to 4 km (1 to 2 mi) wide. Around the glacier are the peaks of the Gangotri Group, including several peaks notable for extremely challenging climbing routes, such as Shivling, Thalay Sagar, Meru, and Bhagirathi III. It flows roughly northwest, originating in a cirque below Chaukhamba, the highest peak of the group.
+				<br/>
+			The terminus of the Gangotri Glacier is said to resemble a cow's mouth, and the place is called Gomukh or Gaumukh (gou, cow + mukh, face). Gomukh, which is about 19 km (11.8 mi) from the town of Gangotri, is the precise source of the Bhagirathi river, an important tributary of the Ganges. Gomukh is situated near the base of Shivling; in between lies the Tapovan meadow.
+			<br/>
+			The Gangotri glacier is a traditional Hindu pilgrimage site. Devout Hindus consider bathing in the icy waters near Gangotri town to be a holy ritual, and many made the trek to Gomukh, with a few continuing on to Tapovan.
+			<br/>
+			 One needs to trek from Gangotri till Gaumukh, passing Devgadh, Chirbhasa, Bhojwasa en route.
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/QzpwCFsE1vCfbREt7" target="_blank">
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219267.27150329642!2d79.03413791684075!3d30.829233786352894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390817b0937807b5%3A0x97c05104c13558e8!2sGangotri%20Glacier!5e0!3m2!1sen!2sin!4v1598010063582!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+	
+</html>

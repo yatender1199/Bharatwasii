@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>orchha</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/9vEs7y1.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h1{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Sofia', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Sofia', cursive;
+    			
+    			
+    			letter-spacing: 3px;
+    			word-spacing: 5px; 
+    			font-size:22px;
+			}
+			
+			.description{
+				width:50%;
+				float:left;
+			}
+			.glow {
+  font-size:50px;
+  color: black;
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1325F0, 0 0 40px #1325F0, 0 0 50px #1325F0, 0 0 60px #1325F0, 0 0 70px #1325F0;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 18px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+				.glow{
+					font-size: 40px;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 16px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+				.glow{
+					font-size: 35px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="mp.html">Go Back</a>
+            </nav>
+            <div id="title"><h1>orchha</h1></div>
+			<div class="description">
+				</br>
+			</br>
+				<h1 class="glow"><b>"The Hidden Treasure" </b> </h1>
+			</br>
+			<span class="des">Orchha is a historical town located on the banks of river Betwa in Madhya Pradesh, known for its grand palaces, and intricately carved temples. Famously known as the city of palaces, it is world-renowned for the classic mural paintings, frescos and Chhatris (cenotaphs) that were constructed to commemorate the Bundela rulers. Orchha's old-world charm casts a spell on tourists from all around the world.
+			</br>
+		</br>
+
+Founded in 1501 by Bundela Rajput Chief, Orchha literally means 'a hidden place'. It was the capital of one of the most powerful dynasties to ever rule in India- the Bundelas. The major attractions in Orchha include Ram Raja Temple (the only place where Lord Ram is worshipped both as a God and a king), Laxmi Narayan Temple (known for its unique architecture which is a melange of a fort and a temple), and the Jahangir Mahal (built in hour of Mughal emperor Jahangir). The medieval architecture of Orchha's palaces and temples is a visual delight for photographers.
+
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/zxYxBxgkKvQHGaXY7">
+
+			    
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57681.05056361009!2d78.59288042686948!3d25.36911580686879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3977785bf0359717%3A0xeab7a0fa33593940!2sOrchha%2C%20Madhya%20Pradesh%20472246!5e0!3m2!1sen!2sin!4v1597299208941!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+</html>

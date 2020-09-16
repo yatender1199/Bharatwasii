@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NandaDeviNationalPark</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/ETuW7De.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h2{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: lighter;
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:18px;
+			}
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 10px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="#">Home</a>
+            </nav>
+            <div id="title"><h2>Nanda Devi National Park</h2></div>
+			<div class="description">
+			<span class="des">The Nanda Devi National Park or Nanda Devi Biosphere Reserve, established in 1982 is a national park situated around the peak of Nanda Devi (7816 m) in the state of Uttarakhand in northern India. The entire park lies at an elevation of more than 3,500 m (11,500 ft) above mean sea level.<br><br>The National Park was inscribed a World Heritage Site by UNESCO in 1988. It was later expanded and renamed as Nanda Devi and Valley of Flowers National Parks in 2005.<br><br>The National Park is embedded in the 2,236.74 km2 (863.61 sq mi) sized Nanda Devi Biosphere Reserve, which, in turn, is encompassed in the 5,148.57 km2 (1,987.87 sq mi) buffer zone around the Nanda Devi and Valley of Flowers National Parks UNESCO site. Best time to visit Nanda Devi National Park is from May to October.<br><br>The Nanda Devi Sanctuary within the National Park can be divided into two parts, Inner and Outer. Together, they are surrounded by the main sanctuary wall, which forms a roughly square outline, with high, continuous ridges on the north, east and south sides. On the west side, less high but still imposing ridges drop from the north and south toward the Rishi Ganga Gorge, which drains the sanctuary towards the west.<br><br>The Inner Sanctuary occupies roughly the eastern two-thirds of the total area, and contains Nanda Devi itself and the two major glaciers flanking the peak, the Uttari (north) Rishi Glacier and the Dakshini (south) Rishi Glacier. These are fed by the smaller Uttari Nanda Devi and Dakshini Nanda Devi Glaciers respectively. This region was already inhabited by the aryanic, Mongolian and Himalayan indigenous peoples as per vedas and natural history but the first recorded entry of the British into the Inner Sanctuary was by Eric Shipton and H. W. Tilman in 1934, via the Rishi Gorge.
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/LzKGP3xmckZnrTbE6" target="_blank">
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4081.4977317358585!2d79.83647160442388!3d30.65883901818938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a7af65d017b76b%3A0xf18b856ca6555a38!2sNanda%20Devi%20National%20Park!5e0!3m2!1sen!2sin!4v1598085182601!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+	
+</html>

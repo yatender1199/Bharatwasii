@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chakrata</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/5HzHTU2.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h2{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: lighter;
+    			letter-spacing: 2px;
+    			word-spacing: 5px; 
+    			font-size:18px;
+			}
+			.description{
+				width:50%;
+				float:left;
+			}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 15px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 10px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="#">Home</a>
+            </nav>
+            <div id="title"><h2>chakrata</h2></div>
+			<div class="description">
+			<span class="des">Chakrata is a cantonment town and also a sub district/ Tehsil, in Dehradun district in the state of Uttarakhand, India.It is between the Tons and Yamuna rivers, at an elevation of 2118 m, 98 km from state capital, Dehradun; it was originally a cantonment of the British Indian Army. To the west lies Himachal Pradesh, and to the east are Mussoorie (73 km) and Tehri Garhwal.<br><br>Tiger Falls is one of the highest direct waterfalls in Uttarakhand. It is 20 km from Chakrata and has an elevation of 312 ft<br><br>Kanasar is surrounded by one of the best-rated Deodar forest of Asia. About 25 km from Chakrata market on Tuini Road, the roads are not in the best shape. The meadows and giant trees more than make up for the bumpy drive. It is one of the best picnic spots near Chakrata. A forest rest house in Kanasar and some tented accommodation allows visitors to spend a night here on prior booking.<br><br>Bairat Khai (The Princess of Hills), also known as Bairat Khai Pass is 25 km east of Chakrata where people can witness 180-degree view of snow-covered Himalayas throughout the year in the north. Situated at an altitude of about 1990 meters, Bairat Khai is surrounded by the peaks of Chorani Dhar at 2300 meters in the west and Julioki Dhar at 2150 meters also known as Tiger hill locally in the eastern side. Bairat Khai has deep valleys on the north and southern side of the pass where you can see villages and houses built in the valleys. Tourists flock here to witness snowfall in the winters and pleasant weather in summers also attract the tourists in huge numbers. Mussoorie is 54 km from Bairat Khai.
+			</span>
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/Bvaw9o8AJVHXgAPN6" target="_blank">
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13722.145266498837!2d77.85798302281363!3d30.703319756248412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f4a6c1ae9b81f%3A0x9bbdb9d6b27b0eb4!2sChakrata%2C%20Uttarakhand%20248123!5e0!3m2!1sen!2sin!4v1598083627316!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+	
+</html>

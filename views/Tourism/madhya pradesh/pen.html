@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pench national park</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/qtHISN9.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+   				background-color: black;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h1{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Sofia', cursive;
+			}
+
+			.des{
+				padding: 10px;
+				text-align:justify;
+				overflow-x: hidden;
+				display: flex;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Sofia', cursive;
+    			
+    			
+    			letter-spacing: 3px;
+    			word-spacing: 5px; 
+    			font-size:22px;
+			}
+			
+			.description{
+				width:50%;
+				float:left;
+			}
+			.glow {
+  font-size:50px;
+  color: black;
+  
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1325F0, 0 0 40px #1325F0, 0 0 50px #1325F0, 0 0 60px #1325F0, 0 0 70px #1325F0;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+			
+			.map{
+			height: auto;
+			width:50%	;
+			/*border:1px solid;*/
+			float:right;
+			padding: 10px;	
+		    }
+		    .map-tile{
+		    	width:100%;
+		    	height:100%;
+		    }
+		    @media only screen and (max-width: 1024px){
+				.des{
+					font-size: 18px;
+				}
+				.description{
+					width:100%;
+				}
+				.map{
+					width:100%;
+				}
+				.glow{
+					font-size: 40px;
+				}
+			}
+
+			@media only screen and (max-width: 400px){
+				.des{
+					font-size: 16px;
+				}
+				.description{
+					width: 100%;
+				}
+				.map{
+					width:100%;
+				}
+				.glow{
+					font-size: 35px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="mp.html">Go Back</a>
+            </nav>
+            <div id="title"><h1>pench national park</h1></div>
+			<div class="description">
+				</br>
+			</br>
+				<h1 class="glow"><b>"The inspiration for 'The Jungle Book'" </b> </h1>
+			</br>
+			<span class="des">With the majestic Pench river flowing through the greens and a variety of wildlife to be spotted in the rocky terrains, Pench National Park served as an inspiration for the famous novel 'The Jungle Book'. One can enjoy many different experiences along with the wildlife safari on the boat rides, such as catching a glimpse of the tribal life and viewing some famous local dams and temples along the way.
+			</br>
+		</br>
+
+The Pench National Park is open to visitors from 1st October to 30th June each year. It remains closed during the monsoon season. Generally, the months of November to February is considered to be the best time to visit the park. The entry fee to the park is INR 15 for Indians and INR 150 for foreigners. The timings are from 6 AM to 11 AM in the mornings, and then from 3 PM to 6 PM. Light vehicles and 15 seater buses are allowed on the premises. An open jeep Jungle Safari is available for both day and night. There is also the option of taking a beautiful boat ride or boat safari to explore Pench and the surrounding areas, across a stretch of 17 km.
+			<br/>
+			</div>
+			<div class="map">
+        		<a href="https://goo.gl/maps/HKenB9LkG3qVrs8XA">
+
+			    
+          			<div id="map-tile">
+            			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237312.36652899903!2d79.0845564420269!3d21.663634595085288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd531813bfc958b%3A0xea7eb748bbe32925!2sPench%20National%20Park!5e0!3m2!1sen!2sin!4v1597299857160!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          			</div>
+        		</a>
+     		</div>
+		</header>
+	</body>
+</html>
