@@ -5,11 +5,9 @@ app.use('/tourism',require('./routes/tourism'));
 app.set("view engine","ejs");
 
 app.get('/',(req,res)=>{
-    res.send("Hello World");
+    res.render("main tourism page");
 });
 
 app.listen(port,()=>{
-    console.log(`Running on port ${port}`);
+     console.log(`Running on port ${port}`);
 });
-
-module.exports = express.Router();
