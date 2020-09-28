@@ -1,125 +1,255 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-        
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-        <style>
-            *{
-    margin: 0;padding: 0;box-sizing: border-box;
-    font-family: 'Caveat', cursive;
-}
-header{
-    width: 100%;height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url('https://i.imgur.com/32yVAnU.jpg');
-        background-repeat: no-repeat;
-    background-size: cover;
-}
-nav{
-    width:100%;height:15vh;
-    background:rgba(0,0,0,0.3);
-    color:white;display: flex;justify-content: space-between;
-    align-items: center;text-transform: uppercase;
-}
-nav .logo{
-    width: 25%;text-align: center;
-    
-}
-nav .menu{
-    width:40%;
-    display:flex;justify-content: space-around;
-}
-nav .menu a{width:25%;text-decoration: none;color:white;
-    font-weight: bold;
-    
-}
-nav .menu a:first-child{color:#00b894;}
-main{
-    width: 100%;height: 85vh;
-    display: flex;justify-content: center;
-    align-items: center;text-align: center;color:white;
-}
-section{
-    
-}
-section h3{
-    font-size: 35px;font-weight: 300;letter-spacing: 3px;
-    text-shadow: 1px 1px 2px black;
-}
-section h1{
-    margin 30px 0 20px 0;
-    font-size: 55px;
-    font-weight: 700;
-    text-shadow: 3px 2px 6px black;
-    text-transform: uppercase;
-}
-section p{
-    font-size: 25px;
-   
-    word-spacing: 2px;
-    margin-bottom: 25px;
-    text-shadow: 1px 1px 1px black;
-}
-section a{
-    padding:12px 30px;
-    border-radius: 4px;
-    outline:none;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 600;
-    text-decoration: none;
-    letter-spacing: 1px;
-}
-section .btone{
-    background:white;
-    color:black;
-}
-section .bttwo{background:#00b894;
-    color:white
-    
-}
-.chnge:after{
-    content:'';
-    animation:changetext 10s infinite linear;color:#00b894;
-}
-@keyframes changetext{
-    0%{content:  "   CULTURE";}
-    10%{content:"  WILDLIFE";}
-    20%{content:"  TOURISM";}
-    30%{content:"  FESTIVALS";}
-    40%{content:"   STATES & UTs";}
-    50%{content:"   FOOD";}
-    60%{content:"  FAMOUS PERSONALITIES";}
-    70%{content:"  TEXTILE";}
-    80%{content:" AGRICULTURE";}
-    90%{content:" INDUSTRIES";}
-    100%{content:"  ACADEMIC INSTITUTIONS";}
-}
-        </style>
-    </head>
-    <body>
-        <header>
-        <nav>
-            <div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
-            <div class="menu">
-                <a href="#">Home</a>
-                 <a href="#">About</a>
-                 <a href="#">Gallery</a>
-                 <a href="#">Contact</a>
-            </div>
+	<head>
+		<title>GUJARAT</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+		<style>
+			*{
+				margin:0px;
+				padding:0px;
+				box-sizing:border-box;
+				font-family: 'Caveat', cursive;
+			}
+
+			body{
+				width: 100%;
+				height: 100vh;
+    			background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url('https://i.imgur.com/GVYYze9.jpg');
+        		background-repeat: no-repeat;
+   				background-size: cover;
+   				background-position: center;
+   				overflow:auto;
+			}
+
+			nav{
+			    width:100%;
+			    height:15vh;
+			    background:rgba(0,0,0,0.5);
+			    color:white;display: flex;
+			    justify-content: space-between;
+			    align-items: center;
+			    text-transform: uppercase;
+			}
+			nav .logo{
+			    width: 25%;
+			    text-align: center;    
+			}
+			nav a{
+				text-decoration: none;
+				color:#00b894;
+				padding-right: 30px;
+				font-weight: 700;
+				font-size:22px;
+			}
+
+			#title{
+				width:100%;
+				height:72px;
+			}
+
+			#title h1{
+				text-align:center;
+				text-transform: uppercase;
+				padding-top: 20px;
+				color:#fff;
+				font-family: 'Flamenco', cursive;
+			}
+
+			#outer{
+				height:100%;
+				width:100%;
+				border:1px solid;
+			}
+			
+			.gallery img{
+				width:100%;
+				
+			}
+			.wlink{
+				padding:15px;
+				text-align:center;
+				overflow-x: hidden;
+				display: flex;
+				text-decoration: none;
+				justify-content: center;
+    			align-items: center;
+    			color:white;
+    			font-family: 'Flamenco', cursive;
+    			text-transform: uppercase;
+    			font-weight: bolder; 
+    			
+			}
+			.responsive{
+				padding:0 6px;
+				float:left;
+				width:25%;
+				padding-top: 20px;
+				
+			}
+
+			.chnge:after{
+    			content:'';
+    			animation:changetext 10s infinite linear;color:#00b894;
+			}
+
+
+			@media only screen and (max-width: 1000px){
+				.responsive{
+					width:50%;
+					margin:6px 0;
+				}
+				nav .logo{statue of unity 
+					padding-left: 5px;
+				}
+			}
+
+			@media only screen and (max-width: 450px){
+				.responsive{
+					width:100%;	
+				}
+				nav .logo{
+					padding-left: 5px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+            	<div class="logo"><h1 class="animated infinite heartBeat">Bharatwasii</h1></div>
+            	<a href="/">Home</a>
             </nav>
-            <main>
-                <section>
-                    <h3>WELCOME TO INDIA</h3>
-                    <h1>Indian<span class="chnge"></span></h1>
-                    <p>"HUM SAB BHARATWASII HAI"</p>
-                    <a href="#" class="btone">learn more</a>
-                    <a href="#" class="bttwo">signup here</a>
-                </section>
-            </main>
-            
-        </header>
-    </body>
-    
+            <div id="title"><h1>tourism in gujarat</h1></div>
+
+            	<div class="responsive">
+					<div class="gallery">
+						<a href="statue of unity " target="_blank"><img src="https://i.imgur.com/lXcyuxq.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="statue of unity " class="wlink">statue of unity</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="sabarmati ashram " target="_blank"><img src="https://i.imgur.com/AVggKvm.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="sabarmati ashram " class="wlink">sabarmati ashram </a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="kutch " target="_blank"><img src="https://i.imgur.com/UOyao0r.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="kutch " class="wlink">kutch</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="baroda " target="_blank"><img src="https://i.imgur.com/iq6nlbp.jpg" width="300" height="200"></a>
+						<div class="des"><a href="baroda " class="wlink">baroda</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="champanerpavagadh " target="_blank"><img src="https://i.imgur.com/UqMWiLQ.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="champanerpavagadh " class="wlink">Champaner-Pavagadh</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="dwarka " target="_blank"><img src="https://i.imgur.com/JD8dJSH.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="dwarka " class="wlink">dwarka</a></div>					
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="gir " target="_blank"><img src="https://i.imgur.com/ZGUQQtA.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="gir " class="wlink">gir national park</a></div>					
+					</div>
+				</div>	
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="idar " target="_blank"><img src="https://i.imgur.com/z2tK5d0.jpg" width="300" height="200"></a>
+						<div class="des"><a href="idar " class="wlink">idar hill fort</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="junagadh " target="_blank"><img src="https://i.imgur.com/fBVdQEE.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="junagadh " class="wlink">junagadh</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="nalsarovar " target="_blank"><img src="https://i.imgur.com/JzUhQa9.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="nalsarovar " class="wlink">nalsarovar bird sanctuary</a></div>					
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a href="narara marine park " target="_blank"><img src="https://i.imgur.com/0KH48Y2.jpg" width="300" height="200"></a>
+						<div class="des"><a href="narara marine park " class="wlink">Narara Marine Park</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="poloforest " target="_blank"><img src="https://i.imgur.com/2veTr5o.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="polo forest " class="wlink">polo forest</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="queens stepwell " target="_blank"><img src="https://i.imgur.com/voflkTH.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="queens stepwell " class="wlink">queens stepwell</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="saputara " target="_blank"><img src="https://i.imgur.com/k8lgAwV.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="saputara " class="wlink">saputara, the dangs</a></div>					
+					</div>
+				</div>	
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="shatrunjay hill temples " target="_blank"><img src="https://i.imgur.com/KLo9u2D.jpg" width="300" height="200"></a>
+						<div class="des"><a href="shatrunjay hill temples " class="wlink">shatrunjay hill temples</a></div>
+					</div>
+				</div>
+
+				<div class="responsive">		
+					<div class="gallery">
+						<a href="somnath " target="_blank"><img src="https://i.imgur.com/ecs36M2.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="somnath " class="wlink">somnath</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="sun temple " target="_blank"><img src="https://i.imgur.com/GW7uliW.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="sun temple " class="wlink">sun temple</a></div>					
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="gallery">
+						<a href="blackbuck " target="_blank"><img src="https://i.imgur.com/MFphgZX.jpg" width="300" height="200"></a>	
+						<div class="des"><a href="blackbuck " class="wlink">velavadar blackbuck national park</a></div>					
+					</div>
+				</div>
+
+		</header>
+	</body>
 </html>
