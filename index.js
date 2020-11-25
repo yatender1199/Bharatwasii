@@ -17,6 +17,9 @@ app.get('/tourism',(req,res)=>{
 app.get('/dance',(req,res)=>{
     res.render("dance main page");
 });
+app.get('/religion',(req,res)=>{
+	res.render("religion main page");
+})
 
 app.listen(port,()=>{
      console.log(`Running on port ${port}`);
