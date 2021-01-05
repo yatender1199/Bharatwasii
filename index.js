@@ -4,6 +4,7 @@ var app = express();
 var db = require("./modules/db");
 app.use('/dance',require('./routes/dance'));
 app.use('/tourism',require('./routes/tourism'));
+app.use('/religion',require('./routes/religion'));
 app.set("view engine","ejs");
 
 app.get('/',(req,res)=>{
@@ -17,6 +18,7 @@ app.get('/tourism',(req,res)=>{
 app.get('/dance',(req,res)=>{
     res.render("dance main page");
 });
+
 app.get('/religion',(req,res)=>{
 	res.render("religion main page");
 })
