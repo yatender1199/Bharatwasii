@@ -262,16 +262,16 @@
 				<div class="modal-body">
 					<div class="tab-content">
 						<div id="home" class="tab-pane fade in active">
-							<form action="/login" method="POST" role="form">
+							<form method="POST" action="/login" role="form">
 								<div class="form-group">
 									<label for="email"><span class="glyphicon glyphicon-user"></span> E-Mail</label>
-									<input type="email" class="form-control" id="usrname" placeholder="Enter email"
+									<input type="email" name="email" class="form-control" id="usrname" placeholder="Enter email"
 										required>
 								</div>
 
 								<div class="form-group">
 									<label for="password">Password</label>
-									<input type="password" class="form-control" id="psw" placeholder="Enter Password"
+									<input type="password" name="password" class="form-control" id="psw" placeholder="Enter Password"
 										required>
 								</div>
 
@@ -282,22 +282,23 @@
 						</div>
 
 						<div id="menu1" class="tab-pane fade">
-							<form action="/register" method="POST" role="form">
+							<form method="POST" action="/register" role="form">
 								<div class="form-group">
 									<label for="name">Name</label>
-									<input type="name" class="form-control" id="name" placeholder="Enter name" required>
+									<input type="text" name="name" class="form-control" id="name"
+										placeholder="Enter name" required>
 								</div>
 
 								<div class="form-group">
 									<label for="email"><span class="glyphicon glyphicon-user"></span> E-Mail</label>
-									<input type="email" class="form-control" id="username" placeholder="Enter email"
-										required>
+									<input type="email" name="email" class="form-control" id="username"
+										placeholder="Enter email" required>
 								</div>
 
 								<div class="form-group">
 									<label for="password">Create Password</label>
-									<input type="password" class="form-control" id="pasw" placeholder="Enter Password"
-										required>
+									<input type="password" name="password" class="form-control" id="pasw"
+										placeholder="Enter Password" required>
 								</div>
 
 								<button type="submit" class="btn btn-block" id="create_account">CREATE ACCOUNT
@@ -433,45 +434,7 @@
 	</footer>
 
 	<script>
-		$(document).ready(function () {
-			var email, password;
-			$("#login").click(function (event) {
-				email = $("#usrname").val();
-				password = $("#psw").val();
-
-				$.post("/login", { email: email, password: password }, function (data) {
-					if (data === 'done') {
-						window.location.href = "/admin";
-
-					}
-					else if (data === 'wrongdone') {
-						window.location.href = "/admin";
-					}
-
-				});
-				event.preventDefault();
-			});
-
-		});
-		$(document).ready(function () {
-
-			$("#create_account").click(function () {
-				var name, email, password;
-				name = $("#name").val();
-				email = $("#username").val();
-				password = $("#pasw").val();
-				$.post("/register", { name: name, email: email, password: password }, function (data) {
-
-					if (data === 'done') {
-						window.location.href = "/admin";
-					}
-					else if (data === 'credentials required!') {
-						alert('credentials required!');
-					}
-				});
-				event.preventDefault();
-			});
-		});
+		
 		$(document).ready(function () {
 			// Initialize Tooltip
 			$('[data-toggle="tooltip"]').tooltip();

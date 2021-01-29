@@ -53,7 +53,7 @@ app.post('/login', (req, res) => {
                 const comparision = await bcrypt.compare(password, results[0].password)
                 if (comparision) {
                     req.session.username = results[0].username;
-                    res.end('done');
+                   res.redirect('/');
                 }
                 else {
                     res.end('wrongdone');
@@ -88,23 +88,14 @@ app.post('/register', async (req, res) => {
                 })
             } else {
                 req.session.username = name;
-                res.end('done');
+                res.redirect('/');
+                
             }
         });
     }
 
 });
 
-app.get('/admin', (req, res) => {
-    if (req.session.username) {
-        res.write(`<h1>Hello ${req.session.username} </h1><br>`);
-        res.end('<a href=' + '/logout' + '>Logout</a>');
-    }
-    else {
-        res.write('<h1>Email or password is wrong! Please login first.</h1>');
-        res.end('<a href=' + '/' + '>Login</a>');
-    }
-});
 
 app.use('/', router);
 
